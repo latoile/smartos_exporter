@@ -66,7 +66,9 @@ func main() {
 
 	// common metrics
 	loadAvg, _ := collector.NewLoadAverageExporter()
+	uptime, _ := collector.NewUpTimeExporter()
 	prometheus.MustRegister(loadAvg)
+	prometheus.MustRegister(uptime)
 
 	if gz == 0 {
 		// Zone metrics
