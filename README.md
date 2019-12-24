@@ -1,5 +1,5 @@
 # smartos_exporter
-[![Go Report Card](https://goreportcard.com/badge/github.com/virtua-network/smartos_exporter)](https://goreportcard.com/report/github.com/virtua-network/smartos_exporter)
+[![Go Report Card](https://goreportcard.com/badge/github.com/latoile/smartos_exporter)](https://goreportcard.com/report/github.com/latoile/smartos_exporter)
 
 Golang program for gathering SmartOS statistics and providing them to Prometheus
 
