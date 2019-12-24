@@ -15,7 +15,7 @@ import (
 	"strings"
 	//  "fmt"
 
-	"github.com/virtua-network/latoile/collector"
+	"github.com/latoile/smartos_exporter/collector"
 
 	// Prometheus Go toolset
 	"github.com/prometheus/client_golang/prometheus"
